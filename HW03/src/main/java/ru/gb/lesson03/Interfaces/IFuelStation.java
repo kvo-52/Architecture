@@ -1,4 +1,5 @@
 package ru.gb.lesson03.Interfaces;
 
-public class IFuelStation {
+public interface IFuelStation {
+    public void fuel();
 }

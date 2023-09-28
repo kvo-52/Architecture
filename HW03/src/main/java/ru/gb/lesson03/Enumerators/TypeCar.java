@@ -1,4 +1,6 @@
 package ru.gb.lesson03.Enumerators;
 
-public class TypeCar {
+public enum TypeCar {
+    SEDAN,
+    PICKUP
 }

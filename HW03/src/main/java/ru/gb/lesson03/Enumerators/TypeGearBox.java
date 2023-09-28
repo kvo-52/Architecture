@@ -1,4 +1,7 @@
 package ru.gb.lesson03.Enumerators;
 
-public class TypeGearBox {
+public enum TypeGearBox {
+    MAN,
+    AUTO,
+    CVT
 }
