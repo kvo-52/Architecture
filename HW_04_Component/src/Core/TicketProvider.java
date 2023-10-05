@@ -24,6 +24,9 @@ public class TicketProvider {
      * @return список билетов
      * @throws RuntimeException
      */
+    public List<Ticket> getTickets (int routeNumber) throws RuntimeException {
+        return ticketRepo.readAll(routeNumber);
+    }
 
 
     /**
@@ -32,5 +35,10 @@ public class TicketProvider {
      * @param ticket билет
      * @return результат выполнения операции
      */
+
+    public boolean updateTicketStatus(Ticket ticket){
+        ticket.setValid(false);
+        return ticketRepo.update(ticket);
+    }
 
 }
