@@ -7,6 +7,15 @@ import java.util.Date;
  */
 public class Ticket{
 
+    private long id;
+    private int price;
+    private Date date;
+    private int zoneStart;
+    private int zoneStop;
+    private short type;
+    private int routeNumber;
+    private int place;
+    private boolean isValid;
 
 
     public Ticket(int routeNumber, int place, int price, Date date, boolean isValid) {
@@ -43,6 +52,24 @@ public class Ticket{
     }
 
     @Override
+    public String toString() {
+        return "Ticket" +
+                " Route Number " + routeNumber +
+                ", Place " + place +
+                ", Price " + price + " rub." +
+                ", Date " + date +
+                ", " + (isValid ? "Free" : "Busy");
+    }
+
+    public String toPrint() {
+        return "Ticket" +
+                "\nRoute Number " + routeNumber +
+                "\nPlace " + place +
+                "\nPrice " + price + "rub." +
+                "\nDate " + date;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         if (obj == null || obj.getClass() != this.getClass()) {
             return false;
@@ -63,5 +90,53 @@ public class Ticket{
             return true;
         }
         return false;
+    }
+
+    public int getRouteNumber() {
+        return routeNumber;
+    }
+
+    public int getPlace() {
+        return place;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public boolean getValid() {
+        return isValid;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public int getZoneStart() {
+        return zoneStart;
+    }
+
+    public int getZoneStop() {
+        return zoneStop;
+    }
+
+    public short getType() {
+        return type;
+    }
+
+    public void setZoneStart(int zoneStart) {
+        this.zoneStart = zoneStart;
+    }
+
+    public void setZoneStop(int zoneStop) {
+        this.zoneStop = zoneStop;
+    }
+
+    public void setValid(boolean b) {
+        this.isValid = b;
     }
 }
