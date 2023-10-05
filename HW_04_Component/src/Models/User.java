@@ -1,12 +1,20 @@
 package Models;
 
 import java.util.Objects;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Модель пользователя
  */
 public class User {
 
+    private int id;
+    private String userName;
+    private int hashPassword;
+    private int phone;
+    private List<String> benefits;
+    private long cardNumber;
 
 
     public User(int id, String userName, int hashPassword, long cardNumber) {
@@ -14,6 +22,8 @@ public class User {
         this.userName = userName;
         this.hashPassword = hashPassword;
         this.cardNumber = cardNumber;
+        this.phone = phone;
+        benefits = new ArrayList<>();
     }
 
 
@@ -41,5 +51,21 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash(id, userName, hashPassword, cardNumber);
+    }
+
+    public int getHashPassword() {
+        return hashPassword;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public long getCardNumber() {
+        return cardNumber;
     }
 }
