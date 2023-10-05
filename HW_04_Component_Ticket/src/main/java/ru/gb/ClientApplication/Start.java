@@ -38,6 +38,9 @@ public class Start extends EnterData {
         }
     }
 
+    private void printMessageLine(String applicationForBuyingBusTickets) {
+    }
+
     /**
      * Логика ветвления запуска программы
      *
@@ -66,6 +69,9 @@ public class Start extends EnterData {
                 return false;
         }
         return true;
+    }
+
+    private void runBuyingMenu() {
     }
 
     /**

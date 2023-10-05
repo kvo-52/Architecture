@@ -4,6 +4,7 @@ import ru.gb.Interfaces.ICarrierRepo;
 import ru.gb.Interfaces.ICashRepo;
 import ru.gb.Models.Carrier;
 import ru.gb.Models.Ticket;
+import ru.gb.Models.User;
 import ru.gb.Services.CarrierRepository;
 import ru.gb.Services.CashRepository;
 
@@ -48,5 +49,8 @@ public class CashProvider {
          * @param client
          */
 
+    }
+
+    public void authorization(User client) {
     }
 }

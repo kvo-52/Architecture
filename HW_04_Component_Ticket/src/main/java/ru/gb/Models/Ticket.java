@@ -51,23 +51,7 @@ public class Ticket{
         return date.hashCode() ^ (routeNumber + place + price);
     }
 
-    @Override
-    public String toString() {
-        return "Ticket" +
-                " Route Number " + routeNumber +
-                ", Place " + place +
-                ", Price " + price + " rub." +
-                ", Date " + date +
-                ", " + (isValid ? "Free" : "Busy");
-    }
 
-    public String toPrint() {
-        return "Ticket" +
-                "\nRoute Number " + routeNumber +
-                "\nPlace " + place +
-                "\nPrice " + price + "rub." +
-                "\nDate " + date;
-    }
 
     @Override
     public boolean equals(Object obj) {

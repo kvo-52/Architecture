@@ -11,6 +11,8 @@ import java.util.List;
  */
 public class TicketProvider {
 
+    private final TicketRepository ticketRepo;
+
     public TicketProvider() {
         // Класс репозитория находится в единственном экземпляре для того, чтобы не создавать несколько подключений
         // к базе данных. Реализация паттерна Синглтон.
