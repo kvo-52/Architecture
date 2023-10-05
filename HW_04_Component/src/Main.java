@@ -1,5 +1,5 @@
 import ClientApplication.Start;
-import Services.CashRepository;
+import Services.*;
 
 public class Main {
     public static void main(String[] args) {
