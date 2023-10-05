@@ -1,7 +1,7 @@
 package ru.gb.ClientApplication;
 
-import Core.UserProvider;
-import Models.User;
+import ru.gb.Core.UserProvider;
+import ru.gb.Models.User;
 
 /**
  * Класс аутентификации пользователя

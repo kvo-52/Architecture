@@ -1,8 +1,8 @@
 package ru.gb.Core;
 
-import Interfaces.ITicketRepo;
-import Models.Ticket;
-import Services.TicketRepository;
+import ru.gb.Interfaces.ITicketRepo;
+import ru.gb.Models.Ticket;
+import ru.gb.Services.TicketRepository;
 
 import java.util.List;
 

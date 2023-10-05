@@ -1,6 +1,6 @@
 package ru.gb.Interfaces;
 
-import Models.Ticket;
+import ru.gb.Models.Ticket;
 
 import java.util.List;
 

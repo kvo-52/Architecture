@@ -1,11 +1,11 @@
 package ru.gb.Core;
 
-import Interfaces.ICarrierRepo;
-import Interfaces.ICashRepo;
+import ru.gb.Interfaces.ICarrierRepo;
+import ru.gb.Interfaces.ICashRepo;
 import ru.gb.Models.Carrier;
-import Models.Ticket;
-import Services.CarrierRepository;
-import Services.CashRepository;
+import ru.gb.Models.Ticket;
+import ru.gb.Services.CarrierRepository;
+import ru.gb.Services.CashRepository;
 
 /**
  * Класс - провайдер для взаимодействия с банком и базой перевозчиков

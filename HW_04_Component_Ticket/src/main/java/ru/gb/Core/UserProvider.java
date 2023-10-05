@@ -1,8 +1,8 @@
 package ru.gb.Core;
 
-import Interfaces.IUserRepo;
-import Models.User;
-import Services.UserRepository;
+import ru.gb.Interfaces.IUserRepo;
+import ru.gb.Models.User;
+import ru.gb.Services.UserRepository;
 
 import java.util.List;
 

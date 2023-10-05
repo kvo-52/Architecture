@@ -1,8 +1,8 @@
 package ru.gb.ClientApplication;
 
-import Core.Customer;
-import Interfaces.ICustomer;
-import Models.Ticket;
+import ru.gb.Core.Customer;
+import ru.gb.Interfaces.ICustomer;
+import ru.gb.Models.Ticket;
 
 import java.util.Date;
 import java.util.List;

@@ -1,6 +1,6 @@
 package ru.gb.Interfaces;
 
-import Models.User;
+import ru.gb.Models.User;
 
 import java.util.List;
 

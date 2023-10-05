@@ -1,8 +1,8 @@
 package ru.gb.Interfaces;
 
 import ru.gb.Core.UserProvider;
-import Models.Ticket;
-import Models.User;
+import ru.gb.Models.Ticket;
+import ru.gb.Models.User;
 
 import java.util.Date;
 import java.util.List;
