@@ -24,8 +24,8 @@ public class TicketRepository implements ITicketRepo {
         } catch (Exception ex) {
             date = null;
         }
-        generateTickets(1, 6, 10, date);
-        generateTickets(2, 4, 15, date);
+        generateTickets(1, 3, 11, date);
+        generateTickets(2, 7, 15, date);
     }
 
     public static TicketRepository getTicketRepository() {

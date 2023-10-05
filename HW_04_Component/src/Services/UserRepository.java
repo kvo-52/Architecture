@@ -16,10 +16,10 @@ public class UserRepository implements IUserRepo {
     private UserRepository() {
         //имитация работы базы клиентов
         clients = new ArrayList<>();
-        clients.add(new User(1, "Ivan", "1111".hashCode(), 2));
-        clients.add(new User(2, "Vasiliy", "2222".hashCode(), 3));
-        clients.add(new User(3, "Fedor", "3333".hashCode(), 4));
-        clients.add(new User(4, "Grigoriy", "4444".hashCode(), 5));
+        clients.add(new User(1, "Jon", "1111".hashCode(), 2));
+        clients.add(new User(2, "Ban", "2222".hashCode(), 3));
+        clients.add(new User(3, "Mikl", "3333".hashCode(), 4));
+        clients.add(new User(4, "Alex", "4444".hashCode(), 5));
     }
 
     public static UserRepository getClientRepository() {
